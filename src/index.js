@@ -8,7 +8,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <p>This </p>
+    <footer>
+      <p>
+        <a href="https://github.com/lahseh/weather-react">Open-source code</a>,
+        by Blessing Orisaleye{" "}
+      </p>
+    </footer>
   </React.StrictMode>
 );
 
